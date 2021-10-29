@@ -1,3 +1,8 @@
+//this programme is to merge two arraies and output the elements in the new array from small to big
+//there should not be repetitive elements in the output
+
+
+
 #include<stdio.h>
 #include<stdlib.h>
 int main()
@@ -26,6 +31,9 @@ int main()
     {
         all[i] = nums2[i-n];
     }
+
+    //get the two original array and put them in the big array
+
     for(int i = 0;i<n+m;i++)
     {
         long min = all[i];
@@ -43,6 +51,9 @@ int main()
         all[i] = all[index];
         all[index] = tmp;
     }
+
+    //a bubble-sorting to arrange the elements in order 
+
     for(int i = 0;i<m+n;i++)
     {
         int test = 1;
@@ -58,5 +69,9 @@ int main()
             printf("%ld ",all[i]);
         }
     }
+
+    //before we output a element, make sure if there has been a same element before it
+    //i think the programme can be optimized here
+
     return 0;
 }

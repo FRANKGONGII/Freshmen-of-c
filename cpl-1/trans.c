@@ -1,3 +1,6 @@
+//this programme is to output a int-numbers's twos complement
+
+
 #include<stdio.h>
 #include<math.h>
 int main()
@@ -30,6 +33,9 @@ int main()
     else if(n<0)
     {
         m = n;
+
+        //treat a negative number as an unsigned number!! that is the key
+
         for(int i = 31;i>=0;i--)
         {
             if(((m>>i)&1)==1)

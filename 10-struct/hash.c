@@ -45,6 +45,5 @@ int main(){
     int hash = 2*str_num;
     string* hashstr;
     hashstr = (string*)malloc(hash*sizeof(string));
-    
     return 0;
 }

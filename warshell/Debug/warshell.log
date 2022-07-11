@@ -1,0 +1,4 @@
+﻿  warshell.cpp
+D:\codes\Freshmen-of-c\warshell\warshell.cpp(38,20): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+D:\codes\Freshmen-of-c\warshell\warshell.cpp(61,18): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+  warshell.vcxproj -> D:\codes\Freshmen-of-c\warshell\Debug\warshell.exe

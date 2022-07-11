@@ -1,0 +1,3 @@
+﻿  path.cpp
+D:\codes\Freshmen-of-c\path\path.cpp(24): warning C4715: “find_path”: 不是所有的控件路径都返回值
+  path.vcxproj -> D:\codes\Freshmen-of-c\path\Debug\path.exe
